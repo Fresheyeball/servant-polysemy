@@ -49,6 +49,7 @@ import Data.Proxy (Proxy(..))
 import GHC.TypeLits (Nat)
 import qualified Network.Wai.Handler.Warp as Warp
 import Polysemy
+import Polysemy (withLowerToIO)
 import Polysemy.Error
 import Servant
        ( Application

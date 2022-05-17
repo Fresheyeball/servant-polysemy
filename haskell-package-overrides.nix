@@ -11,5 +11,8 @@ haskellPackages.override {
     #   pandoc-wrapper = super.callPackage ../pandoc-wrapper/pkg.nix { };
 
     polysemy-zoo = haskellLib.unmarkBroken (haskellLib.doJailbreak super.polysemy-zoo);
+    compact = haskellLib.doJailbreak super.compact;
+    type-errors-pretty = haskellLib.doJailbreak super.type-errors-pretty;
+    servant = haskellLib.doJailbreak super.servant;
   };
 }
