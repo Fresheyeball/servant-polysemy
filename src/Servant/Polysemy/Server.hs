@@ -50,7 +50,6 @@ import GHC.TypeLits (Nat)
 import qualified Network.Wai.Handler.Warp as Warp
 import Polysemy
 import Polysemy.Error
-import Polysemy.Internal.Forklift (withLowerToIO)
 import Servant
        ( Application
        , Handler(..)
